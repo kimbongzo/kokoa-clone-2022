@@ -13,5 +13,19 @@ nav {
 }
 
 .nav__link {
+  position: relative;
   color: #2e363e;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  left: 30px;
+  bottom: 25px;
 }
